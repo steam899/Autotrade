@@ -1,0 +1,26 @@
+/* app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: #101010;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: #252525;
+    border-radius: 3px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background: #f97316;
+  }
+}
+
+body {
+  background-color: #090909;
+  color: #ffffff;
+}

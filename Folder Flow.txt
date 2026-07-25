@@ -1,0 +1,33 @@
+/
+├── app/
+│   ├── layout.tsx
+│   └── page.tsx
+├── types/
+│   └── trading.ts
+├── store/
+│   └── useTradingStore.ts
+├── services/
+│   ├── providerService.ts
+│   └── providers/
+│       ├── binance.ts
+│       ├── polymarket.ts
+│       └── bingx.ts
+├── hooks/
+│   └── useWebsocketSim.ts
+├── components/
+│   ├── Sidebar.tsx
+│   ├── Header.tsx
+│   ├── DashboardView.tsx
+│   ├── LiveChart.tsx
+│   ├── OrderBook.tsx
+│   ├── AIProbability.tsx
+│   ├── RiskDashboard.tsx
+│   ├── ArbitrageScanner.tsx
+│   ├── InventoryManager.tsx
+│   ├── ExecutionEngine.tsx
+│   ├── RecentTrades.tsx
+│   ├── TerminalLogs.tsx
+│   └── SettingsView.tsx
+├── lib/
+│   └── utils.ts
+└── tailwind.config.js
